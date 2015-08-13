@@ -43,9 +43,11 @@ public interface StockService {
 	 */
 	public double calcStockPrice(String stSymbol) throws Exception;
 
+	
 	/**
-	 * @param trade a given Trade
+	 * @param trade a Trade object
+	 * @return boolean: true if recording proccess is ok and false in other case
 	 * @throws Exception
 	 */
-	public void recTrade(Trade trade) throws Exception;
+	public boolean recTrade(Trade trade) throws Exception;
 }

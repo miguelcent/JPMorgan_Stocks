@@ -40,6 +40,14 @@ public class Trade {
 	public Trade(){
 	}
 	
+	public Trade(Date timeStamp, Stock stock, TradeType tradeType, int sharesQ, double price){
+		this.timeStamp = timeStamp;
+		this.stock = stock;
+		this.tradeIndicator = tradeType;
+		this.sharesQuantity = sharesQ;
+		this.price = price;
+	}
+	
 	/**
 	 * 
 	 * @return

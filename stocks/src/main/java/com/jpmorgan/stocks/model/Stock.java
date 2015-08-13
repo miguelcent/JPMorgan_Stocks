@@ -42,6 +42,15 @@ public class Stock {
 	public Stock(){
 		
 	}
+	
+	public Stock(String stSymbol, StockType stType, double lastDividend, double fixedDividend, double parValue, double price){
+			this.stSymbol = stSymbol;
+			this.stType = stType;
+			this.lastDividend = lastDividend;
+			this.fixedDividend = fixedDividend;
+			this.parValue = parValue;
+			this.price = price;
+	}
 
 	/**
 	 * @return

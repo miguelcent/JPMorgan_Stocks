@@ -5,11 +5,10 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * Unit test for simple App.
+ * @author Miguel Centeno
+ *
  */
-public class AppTest 
-    extends TestCase
-{
+public class AppTest extends TestCase {
     /**
      * Create the test case
      *
@@ -35,4 +34,6 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    
 }

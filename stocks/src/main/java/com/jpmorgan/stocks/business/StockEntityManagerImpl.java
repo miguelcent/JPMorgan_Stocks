@@ -68,5 +68,13 @@ public class StockEntityManagerImpl implements StockEntityManager {
 	public int getTradesNum() {
 		return trades.size();
 	}
+	
+	public void cleanStocks(){
+		this.stocks = null;
+	}
+	
+	public void cleanTrades(){
+		this.trades = null;
+	}
 
 }

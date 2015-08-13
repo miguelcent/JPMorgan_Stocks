@@ -36,4 +36,14 @@ public interface StockEntityManager {
 	 */
 	public int getTradesNum();
 	
+	/**
+	 * Method that reset the stocks of entity manager
+	 */
+	public void cleanStocks();
+	
+	/**
+	 * Method that reset the trades of entity manager
+	 */
+	public void cleanTrades();
+	
 }
